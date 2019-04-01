@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#box{
+			width: 500px;
+			height: 500px;
+			border: 2px solid black;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		#box img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<img src="img/V7P]TQYDA]1AK1CDG887R9T.png" alt="" id="soll">
+	</div>
+	<script type="text/javascript">
+		function $(id){
+			return document.getElementById(id);
+		}
+		var box = $("box");
+		var soll = $("soll");
+		var time;
+		// var scroll = box.scrollTop;
+		// box.onmouseover = function(){
+		// 	clearInterval(time);
+		// 	time = setInterval(function(){
+		// 		scroll += 5;
+		// 		if (scroll > box.scrollHeight-box.offsetHeight) {
+		// 			scroll = box.scrollHeight-box.offsetHeight;
+		// 			clearInterval(time);
+		// 		};
+		// 		box.scrollTop = scroll;
+		// 	},10)
+		// }
+		// box.onmousemove = function(evt){
+		// 	var even = evt || window.event;
+		// 	var movey = even.movementY;
+		// 	if (movey > 10) {
+		// 		clearInterval(time);
+		// 		time = setInterval(function(){
+		// 			scroll -= 5;
+		// 			if (scroll < 0) {
+		// 				scroll = 0;
+		// 				clearInterval(time);
+		// 			};
+		// 			box.scrollTop = scroll;
+		// 		},10)
+		// 	}else if (movey < -10) {
+		// 		clearInterval(time);
+		// 		time = setInterval(function(){
+		// 			scroll += 5;
+		// 			if (scroll > box.scrollHeight-box.offsetHeight) {
+		// 				scroll = box.scrollHeight-box.offsetHeight;
+		// 				clearInterval(time);
+		// 			};
+		// 			box.scrollTop = scroll;
+		// 		},10)
+		// 	}
+		// }
+	</script>
+</body>
+</html>
